@@ -23,7 +23,7 @@ sqoop list-tables --connect jdbc:mysql://localhost:3306/sqoop --username root --
 sqoop --options-file filename ...agrs
 ```
 
-### 导入
+### [导入](https://github.com/kangapp/Sqoop/tree/master/import)
 
 - 命令格式(`sqoop help import`)
 ```bash
@@ -37,7 +37,7 @@ sqoop import \
 -m [--num-mappers] (map数)
 ```
 
-### 导出
+### [导出](https://github.com/kangapp/Sqoop/tree/master/export)
 - 命令格式(`sqoop help export`)
 ```bash
 sqoop import \
